@@ -6,7 +6,7 @@ To request joining the webring, please [fork](https://github.com/login?return_to
 
 First, add a comma to the entry right before yours. The end of the file might look like this:
 
-```JSON
+```
 ...
 	"crouton": "https://crouton.net"
 }
@@ -14,7 +14,7 @@ First, add a comma to the entry right before yours. The end of the file might lo
 
 And you should add a comma to the end so that it looks like this:
 
-```JSON
+```
 ...
 	"crouton": "https://crouton.net",
 }
@@ -22,7 +22,7 @@ And you should add a comma to the end so that it looks like this:
 
 However, you can't submit it like this. You need to add your name (can be anything) and your website's link. In the end, the file ending should look like:
 
-```JSON
+```
 ...
 	"crouton": "https://crouton.net",
 	"my name": "https://example.com"
