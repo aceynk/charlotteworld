@@ -38,8 +38,8 @@ Requirements:
 To add the navigator to your page, first you'll want to place the following html into your `<head></head>` tag at the start of your document.
 
 ```HTML
-<link href="https://cdn.jsdelivr.net/gh/aceynk/charlotteworld/style.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/gh/aceynk/charlotteworld/main.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/aceynk/charlotteworld/src/style.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/aceynk/charlotteworld/src/main.js"></script>
 ```
 
 Once that is finished, place the following html wherever you'd like the navigator to be!
