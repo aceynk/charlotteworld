@@ -1,7 +1,7 @@
 
 
 async function fetch_list() {
-    const request_url = "https://raw.githubusercontent.com/aceynk/charlotteworld/main/users.json";
+    const request_url = "https://cdn.jsdelivr.net/gh/aceynk/charlotteworld/users.json";
     const request = new Request(request_url);
     const response = await fetch(request);
     const userlist = response.json();
