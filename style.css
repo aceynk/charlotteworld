@@ -1,4 +1,55 @@
 div {
-    height: 100px;
-    width: 100px;
+    height: 40px;
+    width: auto;
+}
+
+#nav-container > * {
+    display: inline-block;
+}
+
+#prev-arrow {
+    height: 30px;
+    width: 30px;
+    image-rendering: pixelated;
+}
+
+#ch-background {
+    height: 30px;
+    width: 150px;
+    image-rendering: pixelated;
+}
+
+#next-arrow {
+    height: 30px;
+    width: 30px;
+    image-rendering: pixelated;
+}
+
+#prev-link {
+    float: left;
+}
+
+#ch-main {
+    float: left;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: 150px 30px;
+    image-rendering: pixelated;
+    height: 30px;
+    width: 150px;
+    font-size: 10px;
+    text-align: center;
+    color: #f7dff3;
+    padding-top: 8px;
+    font-family: monospace;
+}
+
+#next-link {
+    float: left;
+}
+
+#nav-container::after {
+    content: "";
+    clear: both;
+    display: table;
 }
