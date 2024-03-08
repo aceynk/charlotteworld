@@ -31,7 +31,7 @@ div {
 
 #ch-main {
     float: left;
-    background-image: url("background.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/aceynk/charlotteworld/assets/background.png");
     background-repeat: no-repeat;
     background-size: 150px 30px;
     image-rendering: pixelated;

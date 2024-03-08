@@ -1,7 +1,7 @@
 
 
 async function fetch_list() {
-    const request_url = "https://raw.githubusercontent.com/aceynk/charlotteworld/main/test_users.json";
+    const request_url = "https://raw.githubusercontent.com/aceynk/charlotteworld/main/users.json";
     const request = new Request(request_url);
     const response = await fetch(request);
     const userlist = response.json();
@@ -10,11 +10,9 @@ async function fetch_list() {
 }
 
 function link(userlist) {
-    // CHANGE BEFORE FINISHING
-    // cur_url = new URL(document.URL);
-    const cur_url = new URL("https://aceynk.neocities.org");
-    const userlist_keys = Object.keys( userlist );
 
+    cur_url = new URL(document.URL);
+    const userlist_keys = Object.keys( userlist );
 
     for (let i = 0; i < userlist_keys.length; i++) {
         let test_url = new URL(userlist[userlist_keys[i]]);
@@ -60,8 +58,8 @@ function solidify_link(linkto, name, ind) {
 
     const dir_list = ["prev-link","next-link"];
 
-    console.log(linkto);
-    console.log(name);
+    console.log(dir_list[ind] + ": " + linkto);
+
     if (document.getElementById(dir_list[ind])) {
         document.getElementById(dir_list[ind]).href = linkto;
     } else {
