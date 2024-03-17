@@ -42,8 +42,8 @@ Requirements:
 To add the navigator to your page, first you'll want to place the following html into your `<head></head>` tag at the start of your document.
 
 ```HTML
-<link href="https://cdn.jsdelivr.net/gh/aceynk/charlotteworld/src/style.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/gh/aceynk/charlotteworld/src/main.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/aceynk/charlotteworld@master/src/style.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/aceynk/charlotteworld@master/src/main.js"></script>
 ```
 
 Once that is finished, place the following html wherever you'd like the navigator to be!
@@ -53,13 +53,13 @@ Normal:
 ```HTML
 <div id="nav-container">
     <a id="prev-link">
-        <img id="prev-arrow" src="https://cdn.jsdelivr.net/gh/aceynk/charlotteworld/assets/leftarrow.png" alt="prev">
+        <img id="prev-arrow" src="https://cdn.jsdelivr.net/gh/aceynk/charlotteworld@master/assets/leftarrow.png" alt="prev">
     </a>
     <div id="ch-main">
         CHARLOTTEWORLD Webring!
     </div>
     <a id="next-link">
-        <img id="next-arrow" src="https://cdn.jsdelivr.net/gh/aceynk/charlotteworld/assets/rightarrow.png" alt="next">
+        <img id="next-arrow" src="https://cdn.jsdelivr.net/gh/aceynk/charlotteworld@master/assets/rightarrow.png" alt="next">
     </a>
 </div>
 ```
@@ -67,7 +67,7 @@ Normal:
 Compressed:
 
 ```HTML
-<div id="nav-container"><a id="prev-link"><img id="prev-arrow" src="https://cdn.jsdelivr.net/gh/aceynk/charlotteworld/assets/leftarrow.png" alt="prev"></a><div id="ch-main">CHARLOTTEWORLD Webring!</div><a id="next-link"><img id="next-arrow" src="https://cdn.jsdelivr.net/gh/aceynk/charlotteworld/assets/rightarrow.png" alt="next"></a></div>
+<div id="nav-container"><a id="prev-link"><img id="prev-arrow" src="https://cdn.jsdelivr.net/gh/aceynk/charlotteworld@master/assets/leftarrow.png" alt="prev"></a><div id="ch-main">CHARLOTTEWORLD Webring!</div><a id="next-link"><img id="next-arrow" src="https://cdn.jsdelivr.net/gh/aceynk/charlotteworld@master/assets/rightarrow.png" alt="next"></a></div>
 ```
 
 Once you are done with that, it should work just fine! Please dm @aceynk on discord or create a [github issue](https://github.com/aceynk/charlotteworld/issues) if you run into any problems. Thank you, and enjoy!
