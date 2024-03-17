@@ -1,14 +1,16 @@
 # CHARLOTTEWORLD webring
+
 This is a webring for the CHARLOTTEWORLD discord server. Instructions on how to use are below.
 
 ## How to request to join
+
 To request joining the webring, please [fork](https://github.com/login?return_to=%2Faceynk%2Fcharlotteworld) the github repository and in ``users.json`` add your name and url to the end. Here is how to do this:
 
 First, add a comma to the entry right before yours. The end of the file might look like this:
 
 ```
 ...
-	"crouton": "https://crouton.net"
+    "crouton": "https://crouton.net"
 }
 ```
 
@@ -16,7 +18,7 @@ And you should add a comma to the end so that it looks like this:
 
 ```
 ...
-	"crouton": "https://crouton.net",
+    "crouton": "https://crouton.net",
 }
 ```
 
@@ -24,17 +26,19 @@ However, you can't submit it like this. You need to add your name (can be anythi
 
 ```
 ...
-	"crouton": "https://crouton.net",
-	"my name": "https://example.com"
+    "crouton": "https://crouton.net",
+    "my name": "https://example.com"
 }
 ```
 
 Create a pull request to merge this into main on the github repository. You will have to wait for the pull request to be accepted.
 
 Requirements:
+
 * Just have a functioning site and be a part of the CHARLOTTEWORLD discord server, and you'll be good!
 
 ## How to add the navigator to your page
+
 To add the navigator to your page, first you'll want to place the following html into your `<head></head>` tag at the start of your document.
 
 ```HTML
@@ -45,6 +49,7 @@ To add the navigator to your page, first you'll want to place the following html
 Once that is finished, place the following html wherever you'd like the navigator to be!
 
 Normal:
+
 ```HTML
 <div id="nav-container">
     <a id="prev-link">
@@ -60,6 +65,7 @@ Normal:
 ```
 
 Compressed:
+
 ```HTML
 <div id="nav-container"><a id="prev-link"><img id="prev-arrow" src="https://cdn.jsdelivr.net/gh/aceynk/charlotteworld/assets/leftarrow.png" alt="prev"></a><div id="ch-main">CHARLOTTEWORLD Webring!</div><a id="next-link"><img id="next-arrow" src="https://cdn.jsdelivr.net/gh/aceynk/charlotteworld/assets/rightarrow.png" alt="next"></a></div>
 ```
