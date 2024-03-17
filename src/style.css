@@ -1,27 +1,22 @@
-div {
-    height: 40px;
-    width: auto;
-}
-
 #nav-container > * {
     display: inline-block;
 }
 
 #prev-arrow {
-    height: 30px;
-    width: 30px;
+    height: 45px;
+    width: 45px;
     image-rendering: pixelated;
 }
 
 #ch-background {
-    height: 30px;
+    height: 45px;
     width: 150px;
     image-rendering: pixelated;
 }
 
 #next-arrow {
-    height: 30px;
-    width: 30px;
+    height: 45px;
+    width: 45px;
     image-rendering: pixelated;
 }
 
@@ -33,15 +28,15 @@ div {
     float: left;
     background-image: url("https://cdn.jsdelivr.net/gh/aceynk/charlotteworld/assets/background.png");
     background-repeat: no-repeat;
-    background-size: 150px 30px;
-    image-rendering: pixelated;
-    height: 30px;
-    width: 150px;
+    background-size: 220px 45px;
+    height: 45px;
+    width: 220px;
     font-size: 10px;
     text-align: center;
-    color: #063f23;
-    padding-top: 8px;
+    color: #000;
+    padding-top: 15px;
     font-family: monospace;
+    font-weight: bolder;
 }
 
 #next-link {
